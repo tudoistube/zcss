@@ -1,0 +1,47 @@
+/* Put your code here */
+.grid {
+  display: grid;
+
+ /*
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 200px auto 150px;
+ */
+  grid-template: 100px 100px 100px / 200px auto 150px;
+
+  /*
+  grid-row-gap: 10px;
+  grid-column-gap: 20px;
+  */
+
+  grid-gap: 10px;
+  /*grid-gap: 10px 20px; /* row column */
+
+  grid-template-areas:
+    "E E A"  /* "E . A" */
+    "B C A"
+    "F D A"
+}
+
+.grid div:nth-child(1) {
+  grid-area: A;
+}
+
+.grid div:nth-child(2) {
+  grid-area: B;
+}
+
+.grid div:nth-child(3) {
+  grid-area: C;
+}
+
+.grid div:nth-child(4) {
+  grid-area: D;
+}
+
+.grid div:nth-child(5) {
+  grid-area: E;
+}
+
+.grid div:nth-child(6) {
+  grid-area: F;
+}
