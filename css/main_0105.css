@@ -17,7 +17,7 @@
   /*grid-gap: 10px 20px; /* row column */
 
   grid-template-areas:
-    "E E A"  /* "E . A" */
+    "E E A"  /* "E . A"  or "E - A"*/
     "B C A"
     "F D A"
 }
