@@ -8,7 +8,7 @@ __CSS Grid Examples.__
 ### zcssGrid_0104  
 
 Practised according to the below Youtube :  
-[![](https://youtu.be/1DgbpVboXTo)](https://youtu.be/1DgbpVboXTo)
+[![CSS Grid](http://img.youtube.com/vi/1DgbpVboXTo/0.jpg)](https://youtu.be/1DgbpVboXTo "CSS Grid")  
 
 
 
