@@ -8,8 +8,8 @@ __CSS Grid Examples.__
 ### zcssGrid_0104  
 
 Practised according to the below Youtube :  
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)]
-(https://youtu.be/1DgbpVboXTo)  
+[![](https://youtu.be/1DgbpVboXTo)](https://youtu.be/1DgbpVboXTo)
+
 
 
 ---
