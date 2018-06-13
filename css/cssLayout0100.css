@@ -1,0 +1,31 @@
+/*
+ ...box-sizing : content-box.
+       content area = w x h.
+    box-sizing : border-box.
+       border area = w and h is (content + padding + border),
+                     except margin.
+*/
+
+body{
+  font-size: 2em;
+}
+
+div{
+  /* display: block; */
+  width: 300px;
+  height: 200px;
+  background-color: red;
+}
+
+span{
+  /* display: inline;
+     ...height 가 적용안됨.
+        block, inline, inline-block, none, lex, grid.
+  */
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  /*...inline 이므로 적용안됨.
+       inline-block 은 적용됨.  */
+  background-color: blue;
+}

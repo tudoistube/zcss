@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  font-size: 2em;
+}
+h1, p{
+  margin: 0;
+}
+
+.container{
+  /*
+  ...if child-item is 'float', parent's height will be 0.
+     t4, we can not background color.
+  */
+  background: cyan;
+}
+
+/*
+...solution.01 : old way.
+ .clearBoth{
+    clear:both;
+  }
+...solution.02 : present way.
+      using virtual element.
+*/
+.container::after{
+  content: 'I am a virtual element';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.item{
+  float: left;
+  padding: 5%;
+}
+
+.item-a{
+  width: 30%;
+  background-color: yellow;
+}
+
+.item-b{
+  width: 50%;
+  background-color: yellowgreen;
+}
+
+footer{
+  clear: both;
+  background: gray;
+}

@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  font-size: 2em;
+}
+h1, p{
+  margin: 0;
+}
+
+.container{
+  max-width: 1000px;
+  /*
+  ...margin-left: auto;
+     margin-right: auto;
+  ...margin: 상하 좌우;
+  */
+  margin: 0 auto;
+  font-size: 0;
+}
+/*
+...1rem : root em, 브라우저가 갖는 기본 크기(보통 16px).
+   .item 의 폰트 크기가 기본 크기와 달라야 한다면 직접 크기를 지정해줌.
+      ex) font-size: 12px;
+*/
+.item{
+  display: inline-block;
+  padding: 5%;
+  font-size: 1rem;
+  vertical-align: top;
+}
+
+.item-a{
+  width: 30%;
+  background-color: yellow;
+}
+
+.item-b{
+  width: 50%;
+  background-color: yellowgreen;
+}
