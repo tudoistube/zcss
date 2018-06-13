@@ -9,6 +9,11 @@ __CSS Flex Examples.__
 Practised according to the below Youtube :  
 [![CSS Flex](http://img.youtube.com/vi/BS9T0ZMqT58/0.jpg)](https://youtu.be/BS9T0ZMqT58 "CSS Flex")  
 
+### zcssFlex_0100 ['CSS MediaQuery | 생활코딩' 보고 실습한 소스](https://opentutorials.org/module/2367/13517 "CSS MediaQuery
+ | 생활코딩" )  
+Practised according to the below Youtube :  
+[![CSS MediaQuery](http://img.youtube.com/vi/y3Zx-nVH25s/0.jpg)](https://youtu.be/y3Zx-nVH25s "CSS MediaQuery")  
+
 
 
 ---
