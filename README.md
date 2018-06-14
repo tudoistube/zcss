@@ -1,25 +1,12 @@
-# ZHTMLCSS zcssGrid_0103  
-## zcssGrid_0103  
+# ZHTMLCSS zcssGrid_0104  
+## zcssGrid_0104  
 
 __CSS Grid Examples.__  
 
 ## Branch Description  
 
-### zcssGrid_0103  
+### zcssGrid_0104  
 
-
-### zcssGrid_0103  
-How to make website resposive with media Query for all devices :
-[![CSS Grid](http://img.youtube.com/vi/1DgbpVboXTo/0.jpg)](https://youtu.be/1DgbpVboXTo "CSS Grid")  
-
-### zcssGrid_0103  
-How to create responsive table using html and css? :  
-[![CSS Resposive](http://img.youtube.com/vi/Hv4OtY303Bw/0.jpg)](https://youtu.be/Hv4OtY303Bw "CSS Resposive")  
-
-
-### zcssGrid_0103 ['Simple Responsive Vertical Table](http://kautube.com/responsiveverticaltable-462017/ "Simple Responsive Vertical Table" )  
-Simple Responsive Vertical Table :  
-[![CSS Responsive](http://img.youtube.com/vi/8Li4qgitg0M/0.jpg)](https://youtu.be/8Li4qgitg0M "CSS Responsive")  
 
 
 
