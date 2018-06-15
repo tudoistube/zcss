@@ -1,0 +1,65 @@
+/* Put your code here */
+.grid {
+  display: grid;
+
+  grid-template-rows: 5% 20% auto auto 20%;
+  grid-template-columns: 200px auto auto;
+
+  /*
+  grid-row-gap: 10px;
+  grid-column-gap: 20px;
+  */
+  /*
+  grid-gap: 10px;
+  */
+  grid-gap: 10px; /* row column */
+
+  grid-template-areas:
+    "top top top"  /* "E . A"  or "E - A"*/
+    "header header header"
+    "sidebarLeft1 main main"
+    "sidebarLeft2 main main"
+    "footer footer footer"
+
+}
+
+.top {
+  /* grid-row: 1 / span 1;
+  grid-column: 1 / span 3; */
+  grid-area: top;
+  background-color: yellow;
+}
+
+.header {
+  /* grid-row: 2 / span 1;
+  grid-column: 1 / span 3; */
+  grid-area: header;
+  background-color: #1ABC9C;
+}
+
+.sidebarLeft1 {
+  /* grid-row: 3 / span 1;
+  grid-column: 1 / span 1; */
+  grid-area: sidebarLeft1;
+  background-color: #F1F1F1;
+}
+
+.sidebarLeft2 {
+  /* grid-row: 4 / span 1;
+  grid-column: 1 / span 1; */
+  grid-area: sidebarLeft2;
+  background-color: #F1F1F1;
+}
+
+.main {
+  /* grid-area: 3 / 2 / 5 / span 2; */
+  grid-area: main;
+  background-color: #49D5C9;
+}
+
+.footer {
+  /* grid-row:  / span 1;
+  grid-column: 1 / span 3; */
+  grid-area: footer;
+  background-color: #DDDDDD;
+}
